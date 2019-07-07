@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497744341098",
+    "firebase_url": "https://chatapp2-c4922.firebaseio.com",
+    "project_id": "chatapp2-c4922",
+    "storage_bucket": "chatapp2-c4922.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497744341098:android:1a2be5168f1f44c7",
+        "android_client_info": {
+          "package_name": "example.firoz.chatapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497744341098-24jehog31ckprf0kcor4pncsitlbbkan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.firoz.chatapp2",
+            "certificate_hash": "c248eced7b61bf190f8d7b77294ad49f008d7165"
+          }
+        },
+        {
+          "client_id": "497744341098-p8il5h1np1g5l93dbemrfh7hmb1k72ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT1JQTUSvF2xd1eKVFq_dMj_9JE2daA5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497744341098-p8il5h1np1g5l93dbemrfh7hmb1k72ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_media"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="18sp"
+        android:layout_height="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_close_black_24dp"
+        android:background="@drawable/background_close"/>
+
+    <com.budiyev.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        app:animateProgress="true"
+        app:backgroundStrokeColor="#ff3f51b5"
+        app:backgroundStrokeWidth="2dp"
+        app:drawBackgroundStroke="true"
+        app:foregroundStrokeCap="butt"
+        app:foregroundStrokeColor="#ffff4081"
+        app:foregroundStrokeWidth="3dp"
+        app:indeterminate="false"
+        app:indeterminateRotationAnimationDuration="1200"
+        app:indeterminateSweepAnimationDuration="600"
+        app:indeterminateMinimumAngle="45"
+        app:maximum="100"
+        app:progress="0"
+        app:progressAnimationDuration="100"
+        app:startAngle="270"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

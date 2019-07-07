@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <LinearLayout
+        android:id="@+id/show_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/profile_image"
+        android:gravity="end"
+        android:background="@drawable/background_left">
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="hello"
+        android:textSize="18sp"
+        android:textIsSelectable="true"
+        android:textColor="@android:color/black"
+        android:layout_gravity="start"
+        android:visibility="visible"/>
+
+        <RelativeLayout
+            android:id="@+id/image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/show_image"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txt_image_count"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="99"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/background_image_count"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/show_content" />
+
+</RelativeLayout>
